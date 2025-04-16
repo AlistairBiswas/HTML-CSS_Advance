@@ -1,0 +1,27 @@
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 70px auto;
+}
+
+img {
+  max-width: 100%;
+  /* filter: grayscale(50%); */
+  /* filter: blur(2px); */
+  /* filter: brightness(200%); */
+  /* filter: contrast(200%); */
+  /* filter: drop-shadow(10xp 10px 5px red); */
+  /* filter: hue-rotate(30deg); */
+  /* filter: invert(100%); */
+  /* filter: opacity(50%);
+  filter: saturate(200%);
+  filter: sepia(200%); */
+
+  /* Chain filter */
+  filter: grayscale(100%) blur(5px);
+
+  filter: none;
+}
